@@ -12,10 +12,18 @@ position = Vector2( 614.489, 330.552 )
 script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -8.82983, 19.5031 )
+position = Vector2( -18.8298, 19.5031 )
 shape = SubResource( 1 )
 
 [node name="dania" type="Sprite" parent="."]
-position = Vector2( -7.35236, 15.5111 )
+position = Vector2( -10.3524, 35.5111 )
 scale = Vector2( 0.499176, 0.532255 )
+z_index = 100
 texture = ExtResource( 1 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+rotating = true
+current = true
+zoom = Vector2( 2, 2 )
+smoothing_enabled = true
+smoothing_speed = 20.0

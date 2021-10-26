@@ -3,13 +3,15 @@
 [ext_resource path="res://dania.png" type="Texture" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 121.463, 112.843 )
+extents = Vector2( 868.791, 51.7355 )
 
 [node name="StaticBody2D" type="StaticBody2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 3.36353, -6.72717 )
 shape = SubResource( 1 )
 
-[node name="dania" type="Sprite" parent="CollisionShape2D"]
-position = Vector2( 16.0181, 0 )
+[node name="dania" type="Sprite" parent="."]
+position = Vector2( 0.133499, 0 )
+scale = Vector2( 6.64816, 1 )
 texture = ExtResource( 1 )
